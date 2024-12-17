@@ -1,0 +1,21 @@
+{
+  "name": "qa-guru-pw-academybugs",
+  "version": "1.0.0",
+  "description": "Playwright autotests for academybugs.com",
+  "main": "index.js",
+  "scripts": {
+    "debug": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "allureOpen": "allure open",
+    "allureGenerate": "allure generate",
+    "testEnv": "export NODE_ENV=auto-test npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
+    "allure-playwright": "^3.0.7"
+  }
+}
