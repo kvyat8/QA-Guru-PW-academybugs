@@ -4,11 +4,10 @@
   "description": "Playwright autotests for academybugs.com",
   "main": "index.js",
   "scripts": {
-    "debug": "npx playwright test --ui",
-    "test": "npx playwright test",
+    "allureGenerate": "allure generate --clean",
     "allureOpen": "allure open",
-    "allureGenerate": "allure generate",
-    "testEnv": "export NODE_ENV=auto-test npx playwright test"
+    "debug": "npx playwright test --ui",
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",
